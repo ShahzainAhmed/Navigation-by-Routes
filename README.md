@@ -1,4 +1,4 @@
-# Navigation by Routes - (Method 3 - Professional Approach)
+# Navigation by Routes - (Method 3 - Best Approach)
 
 ## Navigator.pushNamed(arguments)
 
