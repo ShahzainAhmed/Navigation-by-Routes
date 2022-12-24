@@ -1,6 +1,6 @@
-# Navigation by Routes - (Method 3)
+# Navigation by Routes - (Method 3 - Professional Approach)
 
-## Navigator.pushNamed()
+## Navigator.pushNamed(arguments)
 
 ### Step 1: Define Routes 
 <b> routes_names.dart </b>
@@ -52,8 +52,8 @@ class Routes {
 
 
 
-### Use initialRoute and onGenerateRoute with this method
-<b>Example:</b>
+### Step 3: Use initialRoute and onGenerateRoute with this method
+<b>main.dart</b>
 ```
 initialRoute: RouteName.homeScreen,
 onGenerateRoute: Routes.generateRoute,
