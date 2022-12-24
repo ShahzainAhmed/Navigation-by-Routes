@@ -59,3 +59,10 @@ initialRoute: RouteName.homeScreen,
 onGenerateRoute: Routes.generateRoute,
 ```
 
+### Step 4: To print passed data on screen
+<b>screen_two.dart</b> 
+```
+Text(widget.data['Node'])       // here 'Node' is a key used in arguments for the value to be printed
+
+Text(widget.data.toString())   // this will print the entire Map like {"node" : "JS Module"}
+```
